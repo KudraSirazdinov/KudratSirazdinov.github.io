@@ -1,0 +1,49 @@
+.idea{
+  margin-bottom: 80px;
+  @media screen and (max-width:576px) {
+      margin-bottom: 60px;   
+  }
+}
+
+.idea .row{
+  @media screen and (max-width:576px) {
+      gap:50px;   
+  }
+}
+
+.idea h2{
+  margin-bottom: 54px;
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 32px;
+  font-weight: 700;
+  @media screen and (max-width:576px) {
+      font-size: 27px; 
+      margin-bottom: 25px;  
+  }
+}
+
+.rectangle__idea{
+  text-align: center;
+}
+
+.idea img{
+  margin-bottom: 24px;
+}
+
+.rectangle__idea-item{
+  margin-bottom: 24px;
+  font-family: "Rubik";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.idea p{
+  font-family: "Rubik";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  @media screen and (max-width:576px) {
+      font-size: 16px;  
+  }
+}

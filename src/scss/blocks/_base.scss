@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/*убрали везде margin*/
+body,p,h1,h2,h3,h4,h5,ul{
+    margin: 0;
+}
+
+.col-12{
+    @media  screen and (max-width:576px) {
+        padding: 0;
+    }
+}
+
+/*сброс стилей для списков*/
+ul{
+    list-style: none;
+    padding: 0;/*отступ внутри - padding, отступ снаружи - margin*/   
+}

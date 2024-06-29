@@ -1,0 +1,60 @@
+.class{
+  margin-bottom: 80px;
+  @media screen and (max-width: 576px){
+      margin-bottom: 20px;        
+  }
+}
+
+.class-bg{
+  background-color: #DFE1FF;
+  @media screen and (max-width:576px) {
+      background-color: #fff;
+  }
+}
+
+.class__img{
+  text-align: right;
+  @media screen and (max-width:576px) {
+      text-align: center;
+  }
+}
+
+.class h2{
+  padding-top: 73px;
+  margin-bottom: 28px;
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 32px;
+  @media screen and (max-width:576px) {
+      padding: 0 12px;
+      margin-bottom: 25px;
+      font-size: 27px;
+  }
+}
+
+.class p{
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;/*устанавливает величину пространства между строками*/
+  @media screen and (max-width:576px) {
+      font-size: 16px;
+      width: auto;
+      padding-left: 12px;
+      padding-right: 12px;
+  }
+}
+
+.class__img-1{
+  padding-top: 80px;
+  margin-bottom: 80px;
+  @media screen and (max-width:576px) {
+      display: none;
+  }
+}
+
+.class__img-2{
+  @media screen and (min-width:576px) {
+      display: none;
+  }
+}

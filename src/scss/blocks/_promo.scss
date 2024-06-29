@@ -1,0 +1,82 @@
+.promo{
+  margin-bottom: 80px;
+}
+
+.promo__button{
+  display: flex;
+  gap: 20px;
+  @media screen and (max-width:576px) {
+      flex-direction: column;
+      gap:8px;
+  }
+}
+
+.promo .col-sm-7{
+  @media screen and (max-width:576px) {
+      text-align: center;
+      
+  }
+}
+
+.promo__wrap{
+  padding-top: 56px;
+  @media screen and (max-width:576px) {
+      padding: 0 12px;
+  }
+}
+
+.promo h1{
+  font-family: "Rubik";
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  @media screen and (max-width:576px) {
+      font-weight: 700;
+      font-size: 27px;
+  }
+}
+
+.promo p{
+  font-family: "Rubik";
+  font-size: 18px;
+  width: 324px;
+  font-weight: 400;
+  margin-bottom: 19px;
+  color: #8F99AC;
+  line-height: 130%;
+  @media screen and (max-width:576px) {
+      font-size: 16px;
+      width: auto;
+  }   
+}
+
+.promo__wrap-img{
+  @media screen and (max-width:576px) {
+      display: none;
+  }
+}
+
+.promo__button-primary{
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4047E2;
+  border-radius: 10px;
+  border: none; /*края рамки без черного цвета*/
+  padding: 17px 32px;
+}
+
+.promo__button-secondary{
+  background-color:#fff;
+  color:#4047E2;
+  border: 2px solid #4047E2;/*граница кнопки 2px толщинка рамки solid чтобы был один цвет без градиента*/
+  border-radius: 10px;
+  padding: 16px 30px ;
+}
+
+.promo__wrap-img2{
+  @media screen and (min-width:576px) {
+      display: none;
+  }
+}
